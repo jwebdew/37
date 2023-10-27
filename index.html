@@ -1,0 +1,290 @@
+<!DOCTYPE html>
+<html lang="ko">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>반응형 홈페이지</title>
+    <link rel="stylesheet" href="https://cdn.jsdelivr.net/npm/swiper@11/swiper-bundle.min.css" />
+    <link rel="stylesheet" href="css/main.css">
+    <script src="lib/jquery-3.7.1.min.js"></script>
+    <script src="https://cdn.jsdelivr.net/npm/swiper@11/swiper-bundle.min.js"></script>
+
+
+    <script>
+        $(function () {
+            var swiper = new Swiper(".mySwiper", {
+                spaceBetween: 30,
+                centeredSlides: true,
+                autoplay: {
+                    delay: 2500,
+                    disableOnInteraction: false,
+                },
+                pagination: {
+                    el: ".swiper-pagination",
+                    clickable: true,
+                },
+                navigation: {
+                    nextEl: ".swiper-button-next",
+                    prevEl: ".swiper-button-prev",
+                },
+            });
+ 
+
+        });//jquery end
+    </script>
+</head>
+
+<body>
+    <header>
+        <div class="inner">
+            <h1>
+                <a href="#">🍰</a>
+            </h1>
+            <nav class="pc_gnb">
+                <ul>
+                    <li class="depth01">
+                        <a href="#">menu01</a>
+                        <ul class="depth02">
+                            <li><a href="#">menu01-1</a></li>
+                            <li><a href="#">menu01-2</a></li>
+                            <li><a href="#">menu01-3</a></li>
+                            <li><a href="#">menu01-4</a></li>
+                        </ul><!-- .depth02  end -->
+                    </li><!-- .depth01 end -->
+
+                    <li class="depth01">
+                        <a href="#">menu02</a>
+                        <ul class="depth02">
+                            <li><a href="#">menu02-1</a></li>
+                            <li><a href="#">menu02-2</a></li>
+                            <li><a href="#">menu02-3</a></li>
+                            <li><a href="#">menu02-4</a></li>
+                        </ul><!-- .depth02  end -->
+                    </li><!-- .depth01 end -->
+
+                    <li class="depth01">
+                        <a href="#">menu03</a>
+                        <ul class="depth02">
+                            <li><a href="#">menu03-1</a></li>
+                            <li><a href="#">menu03-2</a></li>
+                            <li><a href="#">menu03-3</a></li>
+                            <li><a href="#">menu03-4</a></li>
+                        </ul><!-- .depth02  end -->
+                    </li><!-- .depth01 end -->
+
+                    <li class="depth01">
+                        <a href="#">menu04</a>
+                        <ul class="depth02">
+                            <li><a href="#">menu04-1</a></li>
+                            <li><a href="#">menu04-2</a></li>
+                            <li><a href="#">menu04-3</a></li>
+                            <li><a href="#">menu04-4</a></li>
+                        </ul><!-- .depth02  end -->
+                    </li><!-- .depth01 end -->
+
+                    <li class="depth01">
+                        <a href="#">menu05</a>
+                        <ul class="depth02">
+                            <li><a href="#">menu05-1</a></li>
+                            <li><a href="#">menu05-2</a></li>
+                            <li><a href="#">menu05-3</a></li>
+                            <li><a href="#">menu05-4</a></li>
+                        </ul><!-- .depth02  end -->
+                    </li><!-- .depth01 end -->
+                </ul>
+            </nav><!-- .pc_gnb end -->
+
+            <div class="mobile menu_open">
+                <p>메뉴보기</p>
+            </div><!-- .menu_open end -->
+
+            <!-- 모바일 내비게이션 -->
+            <nav class="mobile mobile_gnb">
+                <div class="menu_close">
+                    <p>메뉴닫기</p>
+                </div><!-- .menu_close end -->
+
+                <ul>
+                    <li class="depth01">
+                        <a href="#">menu01</a>
+                        <ul class="depth02">
+                            <li><a href="#">menu01-1</a></li>
+                            <li><a href="#">menu01-2</a></li>
+                            <li><a href="#">menu01-3</a></li>
+                            <li><a href="#">menu01-4</a></li>
+                        </ul><!-- .depth02  end -->
+                    </li><!-- .depth01 end -->
+
+                    <li class="depth01">
+                        <a href="#">menu02</a>
+                        <ul class="depth02">
+                            <li><a href="#">menu02-1</a></li>
+                            <li><a href="#">menu02-2</a></li>
+                            <li><a href="#">menu02-3</a></li>
+                            <li><a href="#">menu02-4</a></li>
+                        </ul><!-- .depth02  end -->
+                    </li><!-- .depth01 end -->
+
+                    <li class="depth01">
+                        <a href="#">menu03</a>
+                        <ul class="depth02">
+                            <li><a href="#">menu03-1</a></li>
+                            <li><a href="#">menu03-2</a></li>
+                            <li><a href="#">menu03-3</a></li>
+                            <li><a href="#">menu03-4</a></li>
+                        </ul><!-- .depth02  end -->
+                    </li><!-- .depth01 end -->
+
+                    <li class="depth01">
+                        <a href="#">menu04</a>
+                        <ul class="depth02">
+                            <li><a href="#">menu04-1</a></li>
+                            <li><a href="#">menu04-2</a></li>
+                            <li><a href="#">menu04-3</a></li>
+                            <li><a href="#">menu04-4</a></li>
+                        </ul><!-- .depth02  end -->
+                    </li><!-- .depth01 end -->
+
+                    <li class="depth01">
+                        <a href="#">menu05</a>
+                        <ul class="depth02">
+                            <li><a href="#">menu05-1</a></li>
+                            <li><a href="#">menu05-2</a></li>
+                            <li><a href="#">menu05-3</a></li>
+                            <li><a href="#">menu05-4</a></li>
+                        </ul><!-- .depth02  end -->
+                    </li><!-- .depth01 end -->
+                </ul>
+            </nav><!-- .pc_gnb end -->
+        </div><!-- .inner end -->
+    </header>
+
+    <main>
+        <section class="main_visual">
+            <!-- 스와이퍼 슬라이드 적용 -->
+            <!-- swiper demo -->
+            <div class="swiper mySwiper">
+                <div class="swiper-wrapper">
+                    <div class="swiper-slide">
+                        <img src="img/autumn01.jpg" alt="">
+                    </div> <!-- .swiper-slide end -->
+                    <div class="swiper-slide">
+                        <img src="img/autumn02.jpg" alt="">
+                    </div> <!-- .swiper-slide end -->
+                    <div class="swiper-slide">
+                        <img src="img/autumn03.jpg" alt="">
+                    </div> <!-- .swiper-slide end -->
+                     
+                </div>
+                <div class="swiper-button-next"></div>
+                <div class="swiper-button-prev"></div>
+                <div class="swiper-pagination"></div>
+            </div>
+
+        </section><!-- .main_visual  end -->
+
+        <section class="cont01">
+            <div class="inner">
+                <div class="title">
+                    <h3>첫번째 컨텐츠 제목</h3>
+                    <p>Lorem ipsum dolor sit amet consectetur adipisicing elit.</p>
+                </div><!-- .title end -->
+
+                <div class="list">
+                    <div class="big_item">
+                        <figure>
+                            <img src="img/autumn01.jpg" alt="">
+                        </figure>
+                        <h4>아이템 테마 1</h4>
+                        <p>공무원의 신분과 정치적 중립성은 법률이 정하는 바에 의하여 보장된다. 제2항과 제3항의 처분에 대하여는 법원에 제소할 수 없다. 모든 국민은 법률이 정하는 바에 의하여 국가기관에 문서로 청원할 권리를 가진다.</p>
+                    </div><!-- .big_item end -->
+
+                    <div class="small_item">
+                        <div class="item">
+                            <a href="#">
+                                <figure>
+                                    <img src="img/autumn01.jpg" alt="">
+                                </figure>
+                                <h4>아이템 테마 1</h4>
+                                <p>공무원의 신분과 정치적 중립성은 법률이 정하는 바에 의하여 보장된다. 제2항과 제3항의 처분에 대하여는 법원에 제소할 수 없다. 모든 국민은 법률이 정하는 바에 의하여 국가기관에 문서로 청원할 권리를 가진다.</p>
+                            </a>
+                        </div><!-- .item end -->
+
+                        <div class="item">
+                            <a href="#">
+                                <figure>
+                                    <img src="img/autumn02.jpg" alt="">
+                                </figure>
+                                <h4>아이템 테마 2</h4>
+                                <p>정당의 목적이나 활동이 민주적 기본질서에 위배될 때에는 정부는 헌법재판소에 그 해산을 제소할 수 있고, 정당은 헌법재판소의 심판에 의하여 해산된다.</p>
+                            </a>
+                        </div><!-- .item end -->
+
+                        <div class="item">
+                            <a href="#">
+                                <figure>
+                                    <img src="img/autumn03.jpg" alt="">
+                                </figure>
+                                <h4>아이템 테마 3</h4>
+                                <p>대법원장의 임기는 6년으로 하며, 중임할 수 없다. 대통령은 전시·사변 또는 이에 준하는 국가비상사태에 있어서 병력으로써 군사상의 필요에 응하거나 공공의 안녕질서를 유지할 필요가 있을 때에는 법률이 정하는 바에 의하여 계엄을 선포할 수 있다.</p>
+                            </a>
+                        </div><!-- .item end -->
+
+                        <div class="item">
+                            <a href="#">
+                                <figure>
+                                    <img src="img/autumn04.jpg" alt="">
+                                </figure>
+                                <h4>아이템 테마 4</h4>
+                                <p>국무총리는 국회의 동의를 얻어 대통령이 임명한다. 헌법에 의하여 체결·공포된 조약과 일반적으로 승인된 국제법규는 국내법과 같은 효력을 가진다. 국무위원은 국무총리의 제청으로 대통령이 임명한다.</p>
+                            </a>
+                        </div><!-- .item end -->
+                    </div><!-- .small_item  end -->
+
+                </div><!-- .list end -->
+            </div><!-- .inner end -->
+        </section><!-- .cont01 end -->
+
+        <section class="cont02">
+            <div class="title">
+                <h3>두번째 컨텐츠 제목</h3>
+                <p>Quisquam vitae magnam neque quis saepe mollitia esse pariatur inventore.</p>
+            </div><!-- .title end -->
+
+            <div class="list">
+                <div class="item">
+                    <strong>테마 1</strong>
+                    <p>Lorem ipsum dolor sit amet, consectetur adipisicing elit.</p>
+                </div><!-- .item end -->
+
+                <div class="item">
+                    <strong>테마 2</strong>
+                    <p>Lorem ipsum dolor sit amet, consectetur adipisicing elit.</p>
+                </div><!-- .item end -->
+
+                <div class="item">
+                    <strong>테마 3</strong>
+                    <p>Lorem ipsum dolor sit amet, consectetur adipisicing elit.</p>
+                </div><!-- .item end -->
+
+                <div class="item">
+                    <strong>테마 4</strong>
+                    <p>Lorem ipsum dolor sit amet, consectetur adipisicing elit.</p>
+                </div><!-- .item end -->
+            </div><!-- .list end -->
+
+        </section><!-- .cont02 end -->
+
+    </main>
+
+    <footer>
+        <ul>
+            <li>대표 : 하수정</li>
+            <li>연락처 : <a href="tel: 010-8563-7815">010-8563-7815</a></li>
+        </ul>
+        <p>Copyright 2023.hasujeong.All Rights Reserved.</p>
+    </footer>
+</body>
+
+</html>
